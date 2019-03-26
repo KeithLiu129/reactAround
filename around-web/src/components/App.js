@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import { TopBar } from './TopBar';
 import logo from '../assets/images/logo.svg';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <TopBar />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
