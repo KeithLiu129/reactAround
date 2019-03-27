@@ -1,10 +1,12 @@
 import React from 'react';
-import renderEmpty from 'antd/lib/config-provider/renderEmpty';
+import { Register } from './Register';
 
-class Main extends React.Component{
+export class Main extends React.Component{
     render(){
         return (
-            <div></div>
+            <div>
+                <Register/>
+            </div>
         );
     }
 }
